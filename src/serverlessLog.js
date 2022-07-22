@@ -1,16 +1,17 @@
+import { convert } from 'color-convert';
 import boxen from 'boxen'
 import chalk from 'chalk'
 
 const { max } = Math
 
-const blue = chalk.keyword('dodgerblue')
-const grey = chalk.keyword('grey')
-const lime = chalk.keyword('lime')
-const orange = chalk.keyword('orange')
-const peachpuff = chalk.keyword('peachpuff')
-const plum = chalk.keyword('plum')
-const red = chalk.keyword('red')
-const yellow = chalk.keyword('yellow')
+const blue = chalk.rgb(...convert.keyword.rgb('dodgerblue'))
+const grey = chalk.rgb(...convert.keyword.rgb('grey'))
+const lime = chalk.rgb(...convert.keyword.rgb('lime'))
+const orange = chalk.rgb(...convert.keyword.rgb('orange'))
+const peachpuff = chalk.rgb(...convert.keyword.rgb('peachpuff'))
+const plum = chalk.rgb(...convert.keyword.rgb('plum'))
+const red = chalk.rgb(...convert.keyword.rgb('red'))
+const yellow = chalk.rgb(...convert.keyword.rgb('yellow'))
 
 const colorMethodMapping = new Map([
   ['DELETE', red],

@@ -207,7 +207,7 @@
     "@hapi/hapi": "^20.2.1",
     "aws-sdk": "^2.1097.0",
     "boxen": "^5.1.2",
-    "chalk": "^4.1.2",
+    "chalk": "^5.0.1",
     "cuid": "^2.1.8",
     "execa": "^5.1.1",
     "extend": "^3.0.2",
@@ -229,7 +229,8 @@
     "semver": "^7.3.5",
     "update-notifier": "^5.1.0",
     "velocityjs": "^2.0.6",
-    "ws": "^7.5.7"
+    "ws": "^7.5.7",
+    "color-convert": "^2.0.1"
   },
   "devDependencies": {
     "@babel/cli": "^7.17.6",
